@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+body{
+  background: linear-gradient(to right, #8a90e4, #c33eba);
+}
+
+#main h1{
+  font-family: 'Itim', cursive;
+  text-align: center;
+}
+
+.col-md-10{
+  display: flex;
+  justify-content: right;
+  margin-right: 1000px;
+  margin-top: -95px;
+}
+
+.side-nav{
+  list-style: none;
+  font-family: 'Itim', cursive;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.inbox:hover{
+  color: greenyellow;
+}
+.today:hover{
+  color: rgb(47, 255, 78);
+}
+.next:hover{
+  color: rgb(145, 215, 40);
+}
+
+.add{
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: green;
+}
+.add:hover{
+  background-color: rgb(87, 184, 87);
+}
+
+.cancel{
+  padding-right: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: red;
+}
+
+.cancel:hover{
+  background-color: rgb(196, 62, 62);
+}
+
+.date{
+  border-radius: 5px;
+  background-color: azure;
+}
+
+.date:hover{
+  background-color: rgb(233, 236, 236);
+}
+
+
+.input{
+  border-radius: 5px;
+  size: 50px;
+}
+
+.input:hover{
+  background-color: rgb(235, 230, 230);
+}
+
+
+.new{
+  border-radius: 3px;
+  background-color: aqua;
+}
+.new:hover{
+  background-color: rgb(146, 248, 248);
+}
+
+.box{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
